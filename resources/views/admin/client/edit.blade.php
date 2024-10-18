@@ -45,6 +45,13 @@
     <img src="{{ asset('uploads/'.$record['pic']) }}" alt="IMG"  height="50px" width="50px" class="mt-2">
   </div>
  
+
+
+
+
+
+
+  
   <button type="submit" class="btn btn-dark mt-2">Update</button>
 </form>
   </div>
