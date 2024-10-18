@@ -42,7 +42,7 @@
   <div class="form-group">
     <label for="exampleInputEmail1">Image</label>
     <input type="file" name="pic" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Mobile">
-    <img src="{{ asset('images/'.$record['pic']) }}" alt="IMG"  height="50px" width="50px" class="mt-2">
+    <img src="{{ asset('uploads/'.$record['pic']) }}" alt="IMG"  height="50px" width="50px" class="mt-2">
   </div>
  
   <button type="submit" class="btn btn-dark mt-2">Update</button>

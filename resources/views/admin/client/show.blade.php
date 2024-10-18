@@ -40,7 +40,7 @@
       <td>{{$row['email']}}</td>
       <td>{{$row['mobile']}}</td>
       <td>
-      <img src="{{ asset('images/'.$row['pic']) }}" alt="IMG"  height="50px" width="50px">
+      <img src="{{ asset('uploads/'.$row['pic']) }}" alt="IMG"  height="50px" width="50px">
       </td>
       <td>
       <a class="btn btn-success btn-sm" href="{{ url('/edit/client',$row->id) }}">Edit</a>
